@@ -41,6 +41,16 @@ a {
   text-decoration: none;
 }
 
+.back-home-link {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out;
+}
+
+.back-home-link:hover {
+  color: #ef4444;
+}
+
 .container {
   width: min(1120px, 100% - 3rem);
   margin-inline: auto;
